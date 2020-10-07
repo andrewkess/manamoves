@@ -1,6 +1,11 @@
 /** @jsx jsx */
 import { Box, Flex, Link, useColorMode, jsx } from "theme-ui"
 
+import styles from '../../../menu-button.module.css'
+
+import { IconContext } from "react-icons";
+import { FaFacebook } from 'react-icons/fa'
+
 const Footer = () => {
   const [colorMode, setColorMode] = useColorMode()
   const isDark = colorMode === `dark`
@@ -17,6 +22,12 @@ const Footer = () => {
         <Link aria-label="Link to the theme author's website" href="https://www.lekoarts.de/en">
         Terms of Use
         </Link>
+
+        <IconContext.Provider value={{ color: "white", className: "global-class-name" }}>
+<span><Link to="#" className={styles.cartLink}><FaFacebook /></Link></span>
+</IconContext.Provider>
+
+
       <br />
       <Flex
         sx={{
