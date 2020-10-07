@@ -18,7 +18,13 @@ const Footer = () => {
       >
         {isDark ? `Light` : `Dark`}
       </button>
-      &copy; {new Date().getFullYear()} ANNAGRA MEDIA. | Privacy Policy | Terms of Use.
+      &copy; {new Date().getFullYear()} ANNAGRA MEDIA. | 
+      <Link aria-label="Link to the theme author's website" href="https://www.lekoarts.de/en">
+      Privacy Policy 
+        </Link> | 
+        <Link aria-label="Link to the theme author's website" href="https://www.lekoarts.de/en">
+        Terms of Use
+        </Link>
       <br />
       <Flex
         sx={{
