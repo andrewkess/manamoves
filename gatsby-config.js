@@ -31,7 +31,7 @@ module.exports = {
         description: `ANNAGA is a media production company.`,
         start_url: `/`,
         background_color: `#240001`,
-        theme_color: `#f6ad55`,
+        theme_color: `#000000`,
         display: `standalone`,
         icons: [
           {

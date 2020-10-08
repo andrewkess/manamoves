@@ -13,15 +13,15 @@ import ContactMDX from "../sections/contact"
 
 const InnerWave = styled.div`
   path {
-    ${waveAnimation(`20s`)};
+    ${waveAnimation(`40s`)};
   }
 `
 
 const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
-    <Divider fill="divider" speed={0.2} offset={offset} factor={factor} bg={'#240001'} fill={'#FF2483'} >
+    <Divider speed={0.2} offset={offset} factor={factor} bg={'#240001'} fill={'#FF2483'} >
       <div sx={{ position: `absolute`, bottom: 0, width: `full`, transform: `matrix(1, 0, 0, -1, 0, 0)`, backgroundColor: `#240001` }}>
-        <InnerWave sx={{ position: `relative`, height: `full`, backgroundColor: `#240001`, svg: { width: `100%`, height: `40vh`, backgroundColor: `#240001` } }}>
+        <InnerWave sx={{ position: `relative`, height: `full`, backgroundColor: `#240001`, svg: { width: `100%`, height: `60vh`, backgroundColor: `#240001` } }}>
           <svg xmlns="http://www.w3.org/2000/svg" id="contact-wave" viewBox="0 0 800 338.05" preserveAspectRatio="none">
             <path>
               <animate
@@ -37,7 +37,7 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
     </Divider>
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
-        <ContactMDX />
+     
       </Inner>
       <Footer />
     </Content>
