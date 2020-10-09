@@ -153,7 +153,6 @@ text-decoration: none;
   font-family: "Mukta";
   color: #ffffff;
   font-size: 1.6em;
-  padding-bottom:3vh;
   display: flex;
   align-items: center;
 }
@@ -163,7 +162,9 @@ text-decoration: none;
   font-family: "Mukta";
   color: #ffffff;
   font-size: 0.9em;
-  padding-bottom:1vh;
+  align-items: center;
+  padding-top:25px;
+
 }
 
 .bottomFooter a.bottomFooterLink
@@ -183,8 +184,13 @@ text-decoration: none;
 .bottomFooter a.bottomFooterLink:hover
 {
   font-family: "Mukta";
-  color: #240001;
+  color: #FF2483;
  
+}
+
+.patterned {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .bottomFooter2 a.bottomFooterLink:hover
@@ -212,11 +218,14 @@ text-decoration: none;
   font-size: 0.7em;
 }
 
+.mainFooter{
 
+  
+}
 
 .site-footer
 {
-  background-color:#26272b;
+  background-color:#240001;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -279,7 +288,6 @@ text-decoration: none;
   width:40px;
   height:40px;
   line-height:40px;
-  margin-left:6px;
   margin-right:0;
   border-radius:100%;
   background-color:#33353d
@@ -306,18 +314,47 @@ text-decoration: none;
     text-align:center
   }
 }
+
+.spreadApart{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
 .socialIcons
 {
-  padding:0px;
+  align-items: center;
+  display: flex;
+
   margin:0;
   list-style:none;
-  padding-bottom:3vh;
+  flex-direction: row-reverse;
 }
+
+.fullWidth{
+  width: 100%;
+  height:30vh;
+}
+
+.socialIcons2
+{
+  display: flex;
+
+  justify-content:flex-end;
+  flex-direction: row-reverse;
+}
+
 .socialIcons li
 {
   display:inline-block;
-  padding:6px;
+  padding-right:0px;
+  padding-left:25px;
+  padding-top:25px;
+  align-items: center;
+
 }
+
+
 .socialIcons li.title
 {
   margin-right:15px;
@@ -340,6 +377,22 @@ text-decoration: none;
   -o-transition:all .2s linear;
   transition:all .2s linear
 }
+
+.socialIcons2 a{
+  background-color:#ffffff;
+  color: #240001;
+  display:inline-block;
+  line-height:38px;
+  width:38px;
+  height:38px;
+  text-align:center;
+font-size:32px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+
 .socialIcons a:active,.socialIcons a:focus,.socialIcons a:hover
 {
   color:#fff;
@@ -374,15 +427,20 @@ text-decoration: none;
 .socialIcons a.footerOver
 {
   font-size: 30px;
-  padding-top:4px;
+  padding-top:0px;
 }
 
 .socialIcons a.footerOver:hover
 {
-  background-color:#240001;
-  color:#ffffff
+  background-color:#ffffff;
+  color:#FF2483;
 }
 
+.socialIcons2 a.footerOver:hover
+{
+  background-color:#240001;
+  color:#FF2483;
+}
 
 
 

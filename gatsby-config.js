@@ -30,7 +30,7 @@ module.exports = {
         short_name: `ANNAGA`,
         description: `ANNAGA is a media production company.`,
         start_url: `/`,
-        background_color: `#240001`,
+        background_color: `#FF2483`,
         theme_color: `#000000`,
         display: `standalone`,
         icons: [
