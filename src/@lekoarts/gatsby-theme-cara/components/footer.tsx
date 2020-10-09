@@ -60,9 +60,9 @@ const Footer = () => {
     <Col className={ styles.socialIcons}>
     <Container fluid className={styles.spreadApart}>
   <Row>
-  <Col   className={styles.socialIcons2}><a className={styles.footerOver} href="http://wwww.instagram.com"><TiSocialInstagram /></a></Col>
-  <Col   className={styles.socialIcons2}><a className={styles.footerOver} href="http://wwww.twitter.com"><VscTwitter /></a></Col>
-  <Col   className={styles.socialIcons2}><a className={styles.footerOver} href="http://wwww.vimeo.com"><FaVimeoV /></a></Col>
+  <Col   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.instagram.com"><TiSocialInstagram /></a></Col>
+  <Col   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.twitter.com"><VscTwitter /></a></Col>
+  <Col   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.vimeo.com"><FaVimeoV /></a></Col>
   </Row>
 </Container>
 

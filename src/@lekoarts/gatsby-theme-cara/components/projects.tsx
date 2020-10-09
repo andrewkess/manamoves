@@ -8,7 +8,7 @@ import { UpDown, UpDownWide } from "@lekoarts/gatsby-theme-cara/src/styles/anima
 // @ts-ignore
 import ProjectsMDX from "../sections/projects"
 
-const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) => (
+const Projects = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
   
     <Content speed={0.4} offset={offset + 0.5} factor={factor}>
