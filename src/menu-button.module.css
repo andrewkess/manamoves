@@ -24,6 +24,12 @@ margin-top:13px;
 }
 
 
+.logoLink{
+  height:50px;
+  width: 150px;
+  margin: 20px;
+}
+
 .langLink{
     font-size: 0.9em;
     color: #e4e3e3;
