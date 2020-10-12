@@ -336,7 +336,15 @@ top: 1px;
   background-color: transparent;
   border: 0 solid white;
   padding:0px;
-  overflow: visible; }
+  overflow: visible; 
+  padding-right: 12px;
+}
+
+.settingRight{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
   .hamburger:hover {
     opacity: 0.7; }
   .hamburger.is-active:hover {
@@ -353,16 +361,18 @@ top: 1px;
     opacity: 1;
 vertical-align: middle;
   display: inline-block;
-  position: relative; }
+  position: relative;
+
+}
 
 .hamburger-inner {
   display: block;
-  margin-top: 14px;
+  margin-top: 21px;
 margin-left:15px; }
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 28px;
     height: 2px;
-    background-color: gray;
+    background-color: white;
     border-radius: 2px;
     position: absolute;
     transition-property: transform;

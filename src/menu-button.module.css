@@ -7,7 +7,7 @@ width: 100%;
   z-index: 1999;
 padding-bottom: 3px;
 padding-top: 3px;
-
+justify-content: space-between;
 }
 
 
@@ -25,9 +25,9 @@ margin-top:13px;
 
 
 .logoLink{
-  height:50px;
-  width: 150px;
+   width: 10vw;
   margin: 20px;
+  min-width: 150px;
 }
 
 .langLink{
@@ -81,6 +81,8 @@ text-decoration: none;
     margin-left:0px;
     margin-top:0px;
   margin-bottom:0px;
+display: flex;
+  flex-direction: row-reverse;
 
 }
 

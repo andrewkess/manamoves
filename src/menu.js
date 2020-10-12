@@ -17,7 +17,7 @@ class Menu extends Component {
   
       return (
        
-       <Container ><Row id="flyoutMenu"
+       <Container className="settingRight"><Row id="flyoutMenu"
              
        className={visibility}><Col className="menu-left-column">
         <div >
@@ -30,17 +30,19 @@ class Menu extends Component {
          <div className="menuContainer">
 
           <h2><a href="#">About</a></h2>
-          <h2><Link to="/instructors/">Instructors</Link></h2>
+          <h2><Link to="/instructors/">Projects</Link></h2>
           </div>
 
           <div className="instructorBar">
 
-          <h4><Link to="/instructors/lara-laquiz">Lara Laquiz</Link></h4>
-          <h4><Link to="/blog/">Melvin Hans</Link></h4>
+          <h4><Link to="/instructors/lara-laquiz">Law of Desire</Link></h4>
+          <h4><Link to="/blog/">Penguin Bloom</Link></h4>
+          <h4><Link to="/blog/">Neverending Story</Link></h4>
+
           </div> 
           <div className="menuContainer2">
+          <h2><a href="#">Jobs</a></h2>
           <h2><a href="#">Contact</a></h2>
-          <h2><a href="#">Privacy</a></h2>
           </div>
         
        

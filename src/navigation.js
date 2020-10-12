@@ -25,7 +25,7 @@ export default () => (
 
     <Col className={styles.navbarMenu} xs={6}>
 <Link to="/">
-<div><Image src={logo} className={styles.logoLink}  alt="First slide"  /></div>
+<div><Image src={logo} className={styles.logoLink}  alt="Annaga"  /></div>
 
 </Link>
 </Col>
@@ -33,11 +33,6 @@ export default () => (
 <Col className={styles.navMenuContainer}>
     <MenuContainer />
 </Col>
-
-<Col className={styles.rightMenu}>
-<IconContext.Provider value={{ color: "white", className: "global-class-name" }}>
-<span><Link to="#" className={styles.cartLink}><TiWaves /></Link></span>
-</IconContext.Provider>
-</Col></Row>
+</Row>
 </Container>
 )
