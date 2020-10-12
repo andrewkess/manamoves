@@ -35,32 +35,32 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
 <Carousel.Item >
 <a href="http://www.thefyzz.com/project/driven">    
 
-<Image src={logo} className="newFill" alt="First slide" />
+<Image src={logo} className="newFill" alt="LAW OF DESIRE" />
 
 
 
 
 <Carousel.Caption className="capp">
- <h1 style={{fontFamily: "Bebas Neue", fontWeight:500, fontSize:'26vw', display:'swap', letterSpacing: '0.03em', lineHeight:'0.75em'}} >LAW OF DESIRE</h1>
+ <h1 style={{fontFamily: "Bebas Neue", fontWeight:500, fontSize:'5em', display:'swap', letterSpacing: '0.03em', lineHeight:'0.75em'}} >LAW OF DESIRE</h1>
  <p style={{fontFamily: "Mukta", display:'swap', lineHeight:'1.2em', fontSize:'3vh'}}>Fun that's as explosively bright and provocative as ever.</p>
 </Carousel.Caption></a>
 </Carousel.Item>
 
 
 <Carousel.Item                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          >
-<Image src={logoTwo} className="newFill"  alt="First slide"  />
+<Image src={logoTwo} className="newFill"  alt="PENGUIN BLOOM"  />
 <Carousel.Caption className="capp">
-<h1 style={{fontFamily: "Bebas Neue", fontWeight:500, fontSize:'26vw', display:'swap', letterSpacing: '0.03em', lineHeight:'0.75em'}} >PENGUIN BLOOM</h1>
+<h1 style={{fontFamily: "Bebas Neue", fontWeight:500, fontSize:'4em', display:'swap', letterSpacing: '0.03em', lineHeight:'0.75em'}} >PENGUIN BLOOM</h1>
 
 <p style={{fontFamily: "Mukta", display:'swap', lineHeight:'1.2em', fontSize:'3vh'}} className={styles2.fake}>Graceful, thought-provoking commentary on timely sociopolitical themes.</p>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
-<Image src={logoThree} className="newFill"  alt="First slide"  />
+<Image src={logoThree} className="newFill"  alt="NEVER ENDING STORY"  />
 
 
 <Carousel.Caption className="capp">
-<h1 style={{fontFamily: "Bebas Neue", fontWeight:500, fontSize:'26vw', display:'swap', letterSpacing: '0.03em', lineHeight:'0.75em'}} >THE NEVER ENDING STORY</h1>
+<h1 style={{fontFamily: "Bebas Neue", fontWeight:500, fontSize:'4em', display:'swap', letterSpacing: '0.03em', lineHeight:'0.75em'}} >NEVER ENDING STORY</h1>
 <p style={{fontFamily: "Mukta", display:'swap', lineHeight:'1.2em', fontSize:'3vh'}}>A magical journey about the power of a boy's imagination to save a dying land.</p>
 </Carousel.Caption>
 </Carousel.Item>
