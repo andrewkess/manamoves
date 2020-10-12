@@ -1,8 +1,9 @@
 #flyoutMenu {
 
-    background-color: #ff2483;
+    background-color: #141821;
     color: white;
     position: fixed;
+    opacity: 96%;
     top: 0;
     left: 0;
     transition: transform 1s
@@ -74,3 +75,18 @@
   .menuContainer2{
       margin-left: 10px;
   }
+
+
+
+  @media(min-width: 600px) {
+    #flyoutMenu.show {
+      transform: translate3d(60vw, 0, 0);
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+
+
+ 
+  
