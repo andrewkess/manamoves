@@ -48,8 +48,8 @@ height:60vh;
   letter-spacing: 0.03cm;
   line-height: 0.75em;
 display: swap;
-font-size: 5em;
-
+font-size: 5.4em;
+margin-bottom: -0.5rem;
 }
 
 
@@ -58,6 +58,8 @@ font-size: 5em;
 display: swap;
 line-height: 1.2em; 
 font-size: 3.4vh;
+margin-top:20px;
+margin-top:15px;
 }
 
 
