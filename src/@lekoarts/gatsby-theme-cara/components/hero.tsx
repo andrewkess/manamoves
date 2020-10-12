@@ -41,8 +41,8 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
 
 
 <Carousel.Caption className="capp">
- <h1 style={{fontFamily: "Bebas Neue", fontWeight:500, fontSize:'5em', display:'swap', letterSpacing: '0.03em', lineHeight:'0.75em'}} >LAW OF DESIRE</h1>
- <p style={{fontFamily: "Mukta", display:'swap', lineHeight:'1.2em', fontSize:'3vh'}}>Fun that's as explosively bright and provocative as ever.</p>
+ <h1>LAW OF DESIRE</h1>
+ <p>Fun that's as explosively bright and provocative as ever.</p>
 </Carousel.Caption></a>
 </Carousel.Item>
 
@@ -50,9 +50,9 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
 <Carousel.Item                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          >
 <Image src={logoTwo} className="newFill"  alt="PENGUIN BLOOM"  />
 <Carousel.Caption className="capp">
-<h1 style={{fontFamily: "Bebas Neue", fontWeight:500, fontSize:'4em', display:'swap', letterSpacing: '0.03em', lineHeight:'0.75em'}} >PENGUIN BLOOM</h1>
+<h1>PENGUIN BLOOM</h1>
 
-<p style={{fontFamily: "Mukta", display:'swap', lineHeight:'1.2em', fontSize:'3vh'}} className={styles2.fake}>Graceful, thought-provoking commentary on timely sociopolitical themes.</p>
+<p className={styles2.fake}>Graceful comment on timely sociopolitical themes.</p>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
@@ -60,8 +60,8 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
 
 
 <Carousel.Caption className="capp">
-<h1 style={{fontFamily: "Bebas Neue", fontWeight:500, fontSize:'4em', display:'swap', letterSpacing: '0.03em', lineHeight:'0.75em'}} >NEVER ENDING STORY</h1>
-<p style={{fontFamily: "Mukta", display:'swap', lineHeight:'1.2em', fontSize:'3vh'}}>A magical journey about the power of a boy's imagination to save a dying land.</p>
+<h1>NEVER ENDING STORY</h1>
+<p>A magical journey about the power of imagination.</p>
 </Carousel.Caption>
 </Carousel.Item>
 </Carousel>

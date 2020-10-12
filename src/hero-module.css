@@ -9,7 +9,7 @@
           */
           display: block !important;
 
-          height: 100%;
+          height: 100vh;
         object-fit: cover;
      width: 100%;
   background-color: #000000;
@@ -34,8 +34,34 @@ height:60vh;
     text-align: left !important;
     bottom: -1vh;
     left: 6%;
+
+
+ 
+
       }
   
+
+.capp h1{
+
+  font-family: "Bebas Neue"; 
+  font-weight: 500;
+  letter-spacing: 0.03cm;
+  line-height: 0.75em;
+display: swap;
+font-size: 5em;
+
+}
+
+
+.capp p{
+  font-family: "Mukta";
+display: swap;
+line-height: 1.2em; 
+font-size: 3.4vh;
+}
+
+
+
   .preview {
    padding:0px !important ;
   background-color: black !important;
@@ -116,7 +142,7 @@ height:60vh;
           padding: 0 0.5em;
         }
         
-        @media(min-width: 300px) {
+        @media(min-width: 400px) {
           .heroDetails {
             font-size: 16px;
           }
@@ -137,6 +163,26 @@ height:60vh;
             height: 61.8vh;
             max-height: 350px;
           }
+
+
+
+          .capp h1{
+
+            font-family: "Bebas Neue"; 
+            font-weight: 500;
+            letter-spacing: 0.03cm;
+            line-height: 0.75em;
+          display: swap;
+          font-size: 5em;
+          
+          }
+
+          .capp p{
+          line-height: 1.1em; 
+          font-size: 3.8vh;
+          }
+
+
         }
         
         @media(min-width: 600px) {
@@ -154,9 +200,36 @@ height:60vh;
             max-height: 500px;
           
           }
+
+          .capp{
+  
+            text-align: left !important;
+            bottom: 1vh;
+            left: 12%;
+
+
+
+
+              }
+
+              .capp h1{
+
+                font-family: "Bebas Neue"; 
+                font-weight: 500;
+                letter-spacing: 0.03cm;
+                line-height: 0.75em;
+              display: swap;
+              font-size: 6em;
+              
+              }
+
+              .capp p{
+                line-height: 1em; 
+              }
+
         }
         
-        @media(min-width: 1200px) {
+        @media(min-width: 1000px) {
           .heroDetails {
             font-size: 20px;
           }
@@ -180,6 +253,35 @@ height:60vh;
         
           
           }
+
+
+          .capp{
+  
+            text-align: left !important;
+            bottom: 4vh;
+            left: 10%;
+
+
+
+
+              }
+
+              .capp h1{
+
+                font-family: "Bebas Neue"; 
+                font-weight: 500;
+                letter-spacing: 0.03cm;
+                line-height: 0.75em;
+              display: swap;
+              font-size: 9em;
+              
+              }
+              .capp p{
+                line-height: 1.2em; 
+                font-size: 3.8vh;
+              }
+
+
         }
         
         .heroHeadline {
