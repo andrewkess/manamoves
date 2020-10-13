@@ -20,9 +20,9 @@ class Menu extends Component {
        <Container className="settingRight"><Row id="flyoutMenu"
              
        className={visibility}><Col className="menu-left-column">
-        <div >
-                 <button className="hamburger hamburger--slider is-active" type="button" onMouseDown={this.props.handleMouseDown}>
-  <span className="hamburger-box">
+        <div>
+                 <button className="hamburger hamburger--slider is-active" type="button" onMouseDown={this.props.handleMouseDown} >
+  <span className="hamburger-box alignRi">
     <span className="hamburger-inner"></span>
   </span>
 </button>  

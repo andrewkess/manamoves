@@ -338,6 +338,13 @@ top: 1px;
   padding:0px;
   overflow: visible; 
   padding-right: 12px;
+  
+}
+
+.alignRi{
+
+  background-color: orangered;
+
 }
 
 .settingRight{
