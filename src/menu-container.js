@@ -39,7 +39,7 @@ class MenuContainer extends Component {
   
     render() {
       return (
-        <div>
+        <div style={{ marginRight: '1vw' }}>
           
         
           

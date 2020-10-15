@@ -24,6 +24,7 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
         html: {
           fontSize: `18px`,
           WebkitTextSizeAdjust: `100%`,
+          backgroundColor: `#141821`,
         },
         img: {
           borderStyle: `none`,
@@ -44,7 +45,7 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
         <Navigation />
 
     <SEO />
-    <main className={className}>{children}</main>
+    <main className={className} >{children}</main>
   </React.Fragment>
 )
 
