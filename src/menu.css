@@ -29,7 +29,6 @@
   #flyoutMenu.hide {
     transform: translate3d(130vw, 0, 0);
     overflow: hidden;
-    height: 100vh;
 
   }
    
