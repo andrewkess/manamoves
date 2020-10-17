@@ -12,7 +12,8 @@
         object-fit: cover;
      width: 100%;
   background-color: #000000;
-  
+  height:100%;
+  height: calc(var(--vh, 1vh) * 100);
 
 
 }
