@@ -9,12 +9,10 @@
           */
           display: block !important;
 
-          height: 100vh;
         object-fit: cover;
      width: 100%;
   background-color: #000000;
   
-  height: calc(var(--vh, 1vh) * 100);
 
 
 }
@@ -68,6 +66,10 @@ margin-bottom: 0.5rem;
   .preview {
    padding:0px !important ;
   background-color: black !important;
+
+
+
+
   height: 100vh;
    /*
       object-position: center center;
@@ -80,6 +82,7 @@ margin-bottom: 0.5rem;
      
       width: 100%;
       height: calc(var(--vh, 1vh) * 100);
+
 
   }
    
