@@ -5,19 +5,12 @@
     position: fixed;
     opacity: 97%;
     
-    
    /*
-
-
-
    */
    
-   
- 
-    
     top: 0;
     left: 0;
-    transition: transform 0.5s
+    transition: transform .3s
                 cubic-bezier(0, .52, 0, 1);
     overflow: scroll;
     z-index: 500;
@@ -27,8 +20,7 @@
   
   
   #flyoutMenu.hide {
-    transform: translate3d(100vw, 0, 0);
-    overflow: hidden;
+    transform: translate3d(-100vw, 0, 0);
 
   }
    
