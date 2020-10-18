@@ -6,6 +6,12 @@ import styles from './menu-button.module.css'
 import { FiShoppingCart } from 'react-icons/fi'
 
 import { IconContext } from "react-icons";
+import { FaFacebookSquare, FaInstagram, FaVimeoV, FaTwitter } from 'react-icons/fa'
+
+import { TiSocialInstagram, TiSocialVimeo, TiSocialTwitter } from 'react-icons/ti'
+
+import { VscTwitter } from 'react-icons/vsc'
+
 
 class Menu extends Component {
     render() {
@@ -30,6 +36,7 @@ class Menu extends Component {
   </span>
 </button></div>  
          
+         <div className="linksCont">
          <div className="menuContainer">
           <h2><a href="#">About</a></h2>
           </div>
@@ -45,8 +52,15 @@ class Menu extends Component {
           <div className="menuContainer">
           <h2><Link to="/instructors/">Contact</Link></h2>
           </div>
-     
+          </div>
    
+          <Container fluid className="spreadApart2">
+  <Row>
+  <Col   className="socialIconsMenu"><a className="footerOverMenu" href="http://www.instagram.com"><TiSocialInstagram /></a></Col>
+  <Col   className="socialIconsMenu"><a className="footerOverMenu" href="http://www.twitter.com"><VscTwitter /></a></Col>
+  <Col   className="socialIconsMenu"><a className="footerOverMenu" href="http://www.vimeo.com"><FaVimeoV /></a></Col>
+  </Row>
+</Container>
         
         
        
