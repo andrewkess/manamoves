@@ -1,6 +1,6 @@
 #flyoutMenu {
 
-    background-color: #141821;
+    background-color: #240001;
     color: white;
     position: fixed;
    
@@ -51,7 +51,9 @@ background-color: #240001;
   }
    
   #flyoutMenu a:hover {
+  color: #FF2483;
   }
+  
   
  
   
@@ -108,8 +110,9 @@ background-color: #240001;
     #flyoutMenu.show {
       transform: translate3d(70vw, 0, 0);
       overflow: hidden;
-      width: 30vw;
+      width: 31vw;
       height: 100vh;
+      border-left: 2px solid black;
     }
       
 
@@ -128,16 +131,17 @@ justify-content: center;
 
 }
  
+.socIcon{
+  margin-top:50px;
+  width: 30px;
+  height: 30px;
+}
 
 .socialIconsMenu a{
 
-
   display:inline-block;
-  line-height:38px;
-  width:38px;
-  height:38px;
   text-align:center;
-font-size:32px;
+font-size:1em;
   border-radius:100%;
   -webkit-transition:all .2s linear;
   -o-transition:all .2s linear;
@@ -146,5 +150,5 @@ font-size:32px;
 
 .socialIconsMenu a.footerOverMenu:hover
 {
-  color:#240001 !important;
+  color:#FF2483 !important;
 }

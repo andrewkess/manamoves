@@ -56,9 +56,9 @@ class Menu extends Component {
    
           <Container fluid className="spreadApart2">
   <Row>
-  <Col   className="socialIconsMenu"><a className="footerOverMenu" href="http://www.instagram.com"><TiSocialInstagram /></a></Col>
-  <Col   className="socialIconsMenu"><a className="footerOverMenu" href="http://www.twitter.com"><VscTwitter /></a></Col>
-  <Col   className="socialIconsMenu"><a className="footerOverMenu" href="http://www.vimeo.com"><FaVimeoV /></a></Col>
+  <Col   className="socialIconsMenu"><a className="footerOverMenu" href="http://www.instagram.com"><TiSocialInstagram className="socIcon" /></a></Col>
+  <Col   className="socialIconsMenu"><a className="footerOverMenu" href="http://www.twitter.com"><VscTwitter className="socIcon" /></a></Col>
+  <Col   className="socialIconsMenu"><a className="footerOverMenu" href="http://www.vimeo.com"><FaVimeoV className="socIcon" /></a></Col>
   </Row>
 </Container>
         
