@@ -37,15 +37,14 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
           display: `none`,
         },
         "::selection": {
-          backgroundColor: theme.colors.primary,
-          color: theme.colors.background,
-        },
+          backgroundColor: `#FF2483`,
+         },
       })}
     />
         <Navigation />
 
     <SEO />
-    <main className={className} >{children}</main>
+    <main className={className} style={{backgroundColor:'#240001'}} >{children}</main>
   </React.Fragment>
 )
 
