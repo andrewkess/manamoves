@@ -32,7 +32,8 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
 
 
 <Carousel fade={true}  data-interval={false} indicators={false} className="preview">
-<Carousel.Item >
+
+<Carousel.Item className="getFull">
 <a href="http://www.thefyzz.com/project/driven">    
 
 <Image src={logo} className="newFill" alt="LAW OF DESIRE" />
@@ -47,7 +48,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
 </Carousel.Item>
 
 
-<Carousel.Item                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          >
+<Carousel.Item className="getFull" >
 <Image src={logoTwo} className="newFill"  alt="PENGUIN BLOOM"  />
 <Carousel.Caption className="capp">
 <h1>PENGUIN BLOOM</h1>
@@ -55,7 +56,9 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
 <p className={styles2.fake}>Graceful comment on timely sociopolitical themes.</p>
 </Carousel.Caption>
 </Carousel.Item>
-<Carousel.Item>
+
+
+<Carousel.Item className="getFull">
 <Image src={logoThree} className="newFill"  alt="NEVER ENDING STORY"  />
 
 

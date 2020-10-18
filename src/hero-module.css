@@ -87,6 +87,23 @@ margin-bottom: 0.5rem;
 
 
   }
+
+  .getFull{
+
+
+  height: 100vh;
+  /*
+     object-position: center center;
+         justify-content: flex-start !important;
+ 
+         #FF2483
+
+
+     */
+    
+     width: 100%;
+     height: calc(var(--vh, 1vh) * 100);
+  }
    
   
   .preview4 {
