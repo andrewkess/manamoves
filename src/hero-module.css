@@ -10,11 +10,7 @@
           display: block !important;
 
         object-fit: cover;
-     width: 100%;
-  background-color: #000000;
-  height:100%;
-  height: calc(var(--vh, 1vh) * 100);
-
+height: calc(var(--vh, 1vh) * 97);
 
 }
 
@@ -72,7 +68,7 @@ margin-bottom: 0.5rem;
 
 
 
-  height: 100vh;
+  height: 97vh;
    /*
       object-position: center center;
           justify-content: flex-start !important;
@@ -83,7 +79,6 @@ margin-bottom: 0.5rem;
       */
      
       width: 100%;
-      height: calc(var(--vh, 1vh) * 100);
 
 
   }
@@ -91,7 +86,6 @@ margin-bottom: 0.5rem;
   .getFull{
 
 
-  height: 100vh;
   /*
      object-position: center center;
          justify-content: flex-start !important;
@@ -100,9 +94,8 @@ margin-bottom: 0.5rem;
 
 
      */
-    
-     width: 100%;
-     height: calc(var(--vh, 1vh) * 100);
+   
+
   }
    
   
