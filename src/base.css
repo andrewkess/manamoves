@@ -340,15 +340,8 @@ top: 1px;
   
 }
 
-.alignRi{
 
 
-}
-
-.settingRight{
-  display: flex;
-  flex-direction: row-reverse;
-}
 
   .hamburger:hover {
     opacity: 0.7; }

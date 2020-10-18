@@ -81,12 +81,30 @@
   .menuContainer{
       padding-top:10px;
       margin-left: 10px;
-  }
+
+      }
   
   .menuContainer2{
       margin-left: 10px;
   }
 
+
+ .mainCont{
+
+}
+
+.alignRi{
+
+  position: absolute;
+  right: 0;
+
+}
+
+
+ .settingRight{
+
+  
+}
 
 
 
@@ -102,7 +120,7 @@
     #flyoutMenu.show {
       transform: translate3d(70vw, 0, 0);
       overflow: hidden;
-      width: 100vw;
+      width: 30vw;
       height: 100vh;
     }
       
