@@ -11,6 +11,18 @@
 
         object-fit: cover;
 height: calc(var(--vh, 1vh) * 90);
+min-height: 400px;
+}
+
+
+.projectFill{
+  /*
+  width: 400px;
+height: calc(var(--vh, 1vh) * 90);
+  max-width: 400px;
+          */
+          display: block !important;
+        object-fit: cover;
 
 }
 
@@ -24,7 +36,8 @@ height: calc(var(--vh, 1vh) * 90);
 height:60vh;
 }
   
-  
+
+
   .capp{
   
     text-align: left !important;
@@ -59,6 +72,39 @@ margin-top:15px;
 margin-bottom: 0.5rem;
 }
 
+.cappProject{
+  
+  text-align: left !important;
+  bottom: -1vh;
+  left: 3%;
+
+
+
+
+    }
+
+
+.cappProject h1{
+
+font-family: "Bebas Neue"; 
+font-weight: 500;
+letter-spacing: 0.03cm;
+line-height: 0.75em;
+display: swap;
+font-size: 2.2em;
+margin-bottom: -0.5rem;
+opacity: 0.9;
+}
+
+
+.cappProject p{
+font-family: "Mukta";
+display: swap;
+line-height: 1.2em; 
+font-size: 3vh;
+margin-top:15px;
+margin-bottom: 0.5rem;
+}
 
 
   .preview {
@@ -292,12 +338,12 @@ margin-bottom: 0.5rem;
                 letter-spacing: 0.03cm;
                 line-height: 0.75em;
               display: swap;
-              font-size: 9em;
+              font-size: 8em;
               
               }
               .capp p{
                 line-height: 1.2em; 
-                font-size: 3.8vh;
+                font-size: 3.5vh;
               }
 
 
@@ -313,5 +359,17 @@ margin-bottom: 0.5rem;
           font-weight: bold;
         }
         
-        
+
+        .carousel-control-prev-icon{
+          background-image: url("../static/left-arrow.png") !important;
+          border-image: none !important;
+          height:30px !important;
+        }
+     
+      .carousel-control-next-icon{
+        background-image: url("../static/right-arrow.png") !important;
+        height:30px !important;
+
+          border-image: none !important;
+        }
         
