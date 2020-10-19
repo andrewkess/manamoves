@@ -10,7 +10,7 @@
           display: block !important;
 
         object-fit: cover;
-height: calc(var(--vh, 1vh) * 97);
+height: calc(var(--vh, 1vh) * 95);
 
 }
 
@@ -68,7 +68,7 @@ margin-bottom: 0.5rem;
 
 
 
-  height: 97vh;
+  height: 95vh;
    /*
       object-position: center center;
           justify-content: flex-start !important;
