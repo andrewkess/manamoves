@@ -37,6 +37,18 @@ height:60vh;
 }
   
 
+.backFiller{
+  display: grid;
+
+  max-width: 100%;
+ background: #240001;
+  background: linear-gradient(
+    60deg,
+    rgba(36, 0, 1, 0.7777485994397759) 20%,
+    rgba(255, 255, 255, 0) 100%); 
+
+}
+
 
   .capp{
   
@@ -44,7 +56,9 @@ height:60vh;
     bottom: -1vh;
     left: 6%;
 
+ 
 
+ 
  
 
       }
@@ -60,6 +74,7 @@ display: swap;
 font-size: 5.4em;
 margin-bottom: -0.5rem;
 opacity: 0.9;
+margin-top: 7px !important;
 }
 
 
@@ -73,7 +88,7 @@ margin-bottom: 0.5rem;
           /*
                    // font can get larger, but no smaller than 10 points.
             */
-            font-size: calc(11pt + 0.15vw);
+            font-size: calc(15pt + 0.15vw);
             letter-spacing: 0.05em;
             font-weight: 500;
 }
@@ -133,37 +148,23 @@ margin-bottom: 0.5rem;
       width: 100%;
 
 
+
+       /*/ note: search for a gradient overlay generator to make this easier.
+
+    // start at black at the bottom left'ish and goes at a 60% angle. This will make the white easy to read with nearly any image.
+
+    */
+  
+
+
+
+
+
   }
 
   .getFull{
 
 
-  /*
-     object-position: center center;
-         justify-content: flex-start !important;
- 
-         #FF2483
-
-  // note: search for a gradient overlay generator to make this easier.
-
-     // start at black at the bottom left'ish and goes at a 60% angle. This will make the white easy to read with nearly any image.
-
-     */
-   
-
-
-   
-  display: grid;
-  max-width: 100%;
-
-  background: black;
-  background: linear-gradient(
-    60deg,
-    rgba(0, 0, 0, 0.7777485994397759) 30%,
-    rgba(255, 255, 255, 0) 100%); 
-  
- 
-  
 
 
 
@@ -180,7 +181,12 @@ margin-bottom: 0.5rem;
            */
       
    
-    width: 500px; 
+
+
+  
+  
+   
+
    }
 
       .previewTitle {

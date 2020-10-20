@@ -33,6 +33,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
 
 <Carousel fade={true}  data-interval={false} indicators={false} className="preview">
 
+
 <Carousel.Item className="getFull">
 <a href="http://www.thefyzz.com/project/driven">    
 
@@ -40,20 +41,29 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
 
 
 
-
 <Carousel.Caption className="capp">
+<div className="backFiller">
+
  <h1>LAW OF DESIRE</h1>
  <p>Fun that's as explosively bright and provocative as ever.</p>
-</Carousel.Caption></a>
+</div>
+</Carousel.Caption>
+</a>
+
 </Carousel.Item>
+
 
 
 <Carousel.Item className="getFull" >
 <Image src={logoTwo} className="newFill"  alt="PENGUIN BLOOM"  />
+
 <Carousel.Caption className="capp">
+<div className="backFiller">
+
 <h1>PENGUIN BLOOM</h1>
 
 <p className={styles2.fake}>Graceful comment on timely sociopolitical themes.</p>
+</div>
 </Carousel.Caption>
 </Carousel.Item>
 
@@ -61,14 +71,15 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
 <Carousel.Item className="getFull">
 <Image src={logoThree} className="newFill"  alt="NEVER ENDING STORY"  />
 
-
 <Carousel.Caption className="capp">
-<h1>NEVER ENDING STORY</h1>
+    <div className="backFiller">
+<h1 >NEVER ENDING STORY</h1>
 <p>A magical journey about the power of imagination.</p>
+</div>
 </Carousel.Caption>
+
 </Carousel.Item>
 </Carousel>
-
 
 
 )
