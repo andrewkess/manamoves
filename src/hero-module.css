@@ -86,7 +86,7 @@ margin-bottom: 0.5rem;
           /*
                    // font can get larger, but no smaller than 10 points.
             */
-            font-size: calc(12pt + 0.15vw);
+            font-size: calc(13pt + 0.15vw);
             letter-spacing: 0.05em;
             font-weight: 500;
 }
