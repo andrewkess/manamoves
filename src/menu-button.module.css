@@ -4,9 +4,11 @@
   top: 0;
   left:0;
 width: 100%;
+  z-index: 1999;
 padding-bottom: 3px;
 padding-top: 3px;
 justify-content: space-between;
+transition: top 0.3s; /* Transition effect when sliding down (and up) */
 
 }
 

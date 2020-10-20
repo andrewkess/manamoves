@@ -20,9 +20,8 @@ import logo from  "../static/annaga-logo.png" // Tell webpack this JS file uses 
 
 export default () => (
 
-<Headroom>
 
-<Container className={styles.navigationBar} id="navbar" fluid >
+<Container className={styles.navigationBar} fluid >
 <Row>
  
 
@@ -39,6 +38,5 @@ export default () => (
 </Row>
 </Container>
 
-</Headroom>
 
 )

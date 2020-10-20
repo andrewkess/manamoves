@@ -412,4 +412,6 @@ margin-bottom: 0.5rem;
         .carousel-caption {
           padding-top:0px !important;
           padding-bottom:0px !important;
+          right:5% !important;
+
         }
