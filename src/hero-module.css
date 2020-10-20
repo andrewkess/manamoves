@@ -70,6 +70,12 @@ line-height: 1.2em;
 font-size: 3.4vh;
 margin-top:15px;
 margin-bottom: 0.5rem;
+          /*
+                   // font can get larger, but no smaller than 10 points.
+            */
+            font-size: calc(11pt + 0.15vw);
+            letter-spacing: 0.05em;
+            font-weight: 500;
 }
 
 .cappProject{
@@ -138,9 +144,29 @@ margin-bottom: 0.5rem;
  
          #FF2483
 
+  // note: search for a gradient overlay generator to make this easier.
+
+     // start at black at the bottom left'ish and goes at a 60% angle. This will make the white easy to read with nearly any image.
 
      */
    
+
+
+   
+  display: grid;
+  max-width: 100%;
+
+  background: black;
+  background: linear-gradient(
+    60deg,
+    rgba(0, 0, 0, 0.7777485994397759) 30%,
+    rgba(255, 255, 255, 0) 100%); 
+  
+ 
+  
+
+
+
 
   }
    
@@ -245,6 +271,11 @@ margin-bottom: 0.5rem;
           .capp p{
           line-height: 1.1em; 
           font-size: 3.8vh;
+
+     
+
+
+
           }
 
 
@@ -342,8 +373,7 @@ margin-bottom: 0.5rem;
               
               }
               .capp p{
-                line-height: 1.2em; 
-                font-size: 3.5vh;
+                font-size: 3.9vh;
               }
 
 
@@ -363,13 +393,19 @@ margin-bottom: 0.5rem;
         .carousel-control-prev-icon{
           background-image: url("../static/left-arrow.png") !important;
           border-image: none !important;
-          height:30px !important;
+          height:28px !important;
+          width:15px !important;
         }
      
       .carousel-control-next-icon{
         background-image: url("../static/right-arrow.png") !important;
-        height:30px !important;
+        height:28px !important;
+        width:15px !important;
 
           border-image: none !important;
         }
         
+        .carousel-caption {
+          padding-top:0px !important;
+          padding-bottom:0px !important;
+        }

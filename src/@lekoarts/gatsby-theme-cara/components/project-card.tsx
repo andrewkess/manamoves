@@ -7,12 +7,18 @@ import {  Image, Carousel } from 'react-bootstrap'
 import styles2 from '../../../../src/hero-module.css'
 
 
+import logo from  "../../../../static/ramy-keyframe.jpg" // Tell webpack this JS file uses this image
+import logoTwo from "../../../../static/king-keyframe.jpeg" // Tell webpack this JS file uses this image
+import logoThree from "../../../../static/minari-keyframe.jpeg" // Tell webpack this JS file uses this image
+
+
+
 type ProjectCardProps = {
   link: string
   title: string
   children: React.ReactNode
   bg: string
-  imaged: string
+  //imaged: string
 }
 
 const ProjectCard = ({ link, title, children, bg, imaged }: ProjectCardProps) => (
@@ -42,10 +48,10 @@ const ProjectCard = ({ link, title, children, bg, imaged }: ProjectCardProps) =>
 
 
 <Carousel.Item className="projectFill">
-<Image src={imaged} className="projectFill"  alt="NEVER"  />
+<Image src={logo} className="projectFill"  alt="NEVER"  />
 <Carousel.Caption className="cappProject">
 <h1>{title}</h1>
-<p>{imaged}</p>
+<p>{title}</p>
 </Carousel.Caption>
 </Carousel.Item>
 
