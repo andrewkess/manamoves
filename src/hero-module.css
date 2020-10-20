@@ -38,20 +38,13 @@ height:60vh;
   
 
 .backFiller{
-  display: grid;
 
-  max-width: 100%;
- background: #240001;
-  background: linear-gradient(
-    60deg,
-    rgba(36, 0, 1, 0.7777485994397759) 20%,
-    rgba(255, 255, 255, 0) 100%); 
-
+  
 }
 
 .backFiller:hover h1 {
-color:#FF2483 !important;
-cursor: pointer;
+
+  
 }
 
 
@@ -93,7 +86,7 @@ margin-bottom: 0.5rem;
           /*
                    // font can get larger, but no smaller than 10 points.
             */
-            font-size: calc(15pt + 0.15vw);
+            font-size: calc(12pt + 0.15vw);
             letter-spacing: 0.05em;
             font-weight: 500;
 }
