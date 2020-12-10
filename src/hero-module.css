@@ -10,8 +10,8 @@
           display: block !important;
 
         object-fit: cover;
-height: calc(var(--vh, 1vh) * 90);
-min-height: 400px;
+height: calc(var(--vh, 1vh) * 100);
+min-height: 300px;
 }
 
 
@@ -133,7 +133,7 @@ margin-bottom: 0.5rem;
 
 
 
-  height: 90vh;
+  height: 100vh;
    /*
       object-position: center center;
           justify-content: flex-start !important;
@@ -162,6 +162,7 @@ margin-bottom: 0.5rem;
 
   .getFull{
 
+  height: 100vh;
 
 
 
@@ -238,6 +239,11 @@ margin-bottom: 0.5rem;
         }
         
         @media(min-width: 400px) {
+          
+          .preview{
+            
+          }
+          
           .heroDetails {
             font-size: 16px;
           }

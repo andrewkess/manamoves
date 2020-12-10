@@ -14,8 +14,8 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       bg="#FF2483"
       clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)"
       speed={0.2}
-      offset={offset}
-      factor={factor}
+         offset={0.4}
+      factor={0.9}
     />
   
     <Content speed={0.4} offset={offset} factor={factor}  >

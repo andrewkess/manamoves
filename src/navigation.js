@@ -7,10 +7,7 @@ import React from 'react'
 import { Container, Col, Row, Image } from 'react-bootstrap'
 import {Link} from 'gatsby'
 import styles from './menu-button.module.css'
-import { IconContext } from "react-icons";
-import { TiWaves } from 'react-icons/ti'
 import MenuContainer from './menu-container'
-import Headroom from 'react-headroom'
 
 import './base.css'
 
@@ -19,6 +16,7 @@ import logo from  "../static/annaga-logo.png" // Tell webpack this JS file uses 
 
 
 export default () => (
+
 
 
 <Container className={styles.navigationBar} fluid >

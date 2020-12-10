@@ -11,11 +11,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 const Cara = () => (
-  <Layout >
+   <Layout >
     <Parallax pages={3.5}>
       <Hero offset={0} factor={1} />
       <About offset={0.8} factor={0.5} />
-      <Projects offset={1.2} factor={0.5} />
+      <Projects offset={1.4} factor={0.5} />
       <Contact offset={2} factor={0.6} />
     </Parallax>
   </Layout>

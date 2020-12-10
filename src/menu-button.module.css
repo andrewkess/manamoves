@@ -1,3 +1,17 @@
+.navbar {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: top 0.6s;
+}
+
+.navbar--hidden {
+    top: -50px;
+}
+
+
 .navigationBar{
     background-color:none;
     position: fixed;
@@ -24,6 +38,7 @@ transition: top 0.3s; /* Transition effect when sliding down (and up) */
 margin-top:13px;
 
 }
+
 
 
 .logoLink{

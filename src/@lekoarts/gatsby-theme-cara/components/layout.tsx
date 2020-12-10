@@ -3,7 +3,8 @@ import React from "react"
 import { Global } from "@emotion/core"
 import { jsx } from "theme-ui"
 import SEO from "@lekoarts/gatsby-theme-cara/src/components/seo"
-import Navigation from '../../../../src/navigation'
+//import Navigation from '../../../../src/navigation-with-scroll.js'
+import Navigation from '../../../../src/navigation.js'
 
 
 type LayoutProps = { children: React.ReactNode; className?: string }
@@ -41,10 +42,15 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
          },
       })}
     />
-        <Navigation />
+       
 
     <SEO />
-    <main className={className} style={{backgroundColor:'#240001'}} >{children}</main>
+    <Navigation />
+
+    <main className={className} style={{backgroundColor:'#240001'}} > 
+
+
+    {children}</main>
   </React.Fragment>
 )
 
