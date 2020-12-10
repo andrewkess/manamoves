@@ -20,7 +20,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   
     <Content speed={0.4} offset={offset} factor={factor}  >
       <Inner>
-        <AboutMDX />
+        <AboutMDX  />
       </Inner>
     </Content>
   </div>

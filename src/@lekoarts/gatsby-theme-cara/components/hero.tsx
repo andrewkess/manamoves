@@ -35,7 +35,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
 
 
 <Carousel.Item className="getFull">
-<a href="http://www.thefyzz.com/project/driven">    
+<a href="#">    
 
 <Image src={logo} className="newFill" alt="LAW OF DESIRE" />
 

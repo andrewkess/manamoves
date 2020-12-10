@@ -13,6 +13,21 @@ const Projects = ({ offset, factor = 1 }: { offset: number; factor?: number }) =
   
     <Content speed={0.4} offset={offset + 0.5} factor={factor}>
       <Inner>
+      
+           <div style={{
+fontFamily: 'Bebas Neue', 
+  fontWeight: '500',
+  letterSpacing: '0.03cm',
+  lineHeight: '0.75em',
+  paddingBottom: '0.4em',
+display: 'swap',
+fontSize: '3em',
+          
+        }}>
+Projects
+</div>
+      
+      
         <div
           sx={{
             display: `grid`,
@@ -20,7 +35,11 @@ const Projects = ({ offset, factor = 1 }: { offset: number; factor?: number }) =
             gridTemplateColumns: [`1fr`, `1fr`, `repeat(2, 1fr)`],
             h2: { gridColumn: `-1/1`, color: `white !important` },
           }}
+          
         >
+        
+   
+        
           <ProjectsMDX />
         </div>
       </Inner>
