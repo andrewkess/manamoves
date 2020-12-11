@@ -27,24 +27,11 @@ const Footer = () => {
 <div className={styles.fullWidth}> 
 
 
-<Container fluid className={styles.mainFooter}>
-  <Row>
-    <Col className={styles.bottomFooter}>
-    
-    <Link aria-label="Link to About Us" href="#" className={styles.bottomFooterLink}>About</Link><span className={styles.footerDivider}></span> 
-      <Link aria-label="Link to Our Projects" href="#" className={styles.bottomFooterLink}>Projects</Link> 
-      <span className={styles.footerDivider}></span> 
-      <Link aria-label="Link to Contact Us" href="#" className={styles.bottomFooterLink}>Contact</Link> 
-      <span className={styles.footerDivider}></span> 
-      <Link aria-label="Link to Our Jobs" href="#" className={styles.bottomFooterLink}>Jobs</Link> 
-    
-    </Col>
-  </Row></Container>
   <Container>
   
   <Row className="justify-content-md-center">
     <Col className={styles.bottomFooter2} sm="auto">
-          &copy; {new Date().getFullYear()} Annagra Media Productions
+          &copy; {new Date().getFullYear()} Annagra Productions
     </Col>      
       <Col className={styles.bottomFooter2} sm="auto">
       <Link aria-label="Link to Privacy Policy" href="#" className={styles.bottomFooterLink}>
@@ -57,7 +44,9 @@ const Footer = () => {
         </Link>
     </Col>
 
-    <Col className={ styles.socialIcons}>
+    <Col >
+    
+    
     <Container fluid className={styles.spreadApart}>
   <Row>
   <Col   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.instagram.com"><TiSocialInstagram /></a></Col>

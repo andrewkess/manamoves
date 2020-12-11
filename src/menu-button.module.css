@@ -189,7 +189,7 @@ display: flex;
 
   font-family: "Mukta";
   color: #ffffff;
-  font-size: 0.9em;
+  font-size: 0.5em;
   align-items: center;
   padding-top:25px;
 
@@ -408,8 +408,7 @@ display: flex;
 }
 
 .socialIcons2 a{
-  background-color:#ffffff;
-  color: #240001;
+  color: #ffffff;
   display:inline-block;
   line-height:38px;
   width:38px;
@@ -457,6 +456,7 @@ font-size:32px;
 {
   font-size: 30px;
   padding-top:0px;
+color:white;
 }
 
 .socialIcons a.footerOver:hover
@@ -467,8 +467,7 @@ font-size:32px;
 
 .socialIcons2 a.footerOver:hover
 {
-  background-color:#240001;
-  color:#FF2483;
+  color:#240001;
 }
 
 

@@ -15,12 +15,11 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)"
       speed={0.2}
          offset={0.4}
-      factor={0.9}
+      factor={0.7}
     />
   
     <Content speed={0.4} offset={offset} factor={factor}  >
       <Inner>
-      <div className="projectsTitle">About</div>
 
       <div className="aboutText">Annaga combines creativity with empathy to craft bold, unforgettable stories of personal triumph.</div>
 
