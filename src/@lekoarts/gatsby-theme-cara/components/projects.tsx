@@ -6,9 +6,17 @@ import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
 import SVG from "@lekoarts/gatsby-theme-cara/src/components/svg"
 import { UpDown, UpDownWide } from "@lekoarts/gatsby-theme-cara/src/styles/animations"
 // @ts-ignore
-import ProjectsMDX from "../sections/projects"
+//import ProjectsMDX from "../sections/projects"
 
 import styles2 from '../../../../src/hero-module.css'
+import {  Image, Carousel } from 'react-bootstrap'
+
+
+//import logo from  "../../../../static/ramy-keyframe.jpg" // Tell webpack this JS file uses this image
+import logo from  "../../../../static/brexit.jpg" // Tell webpack this JS file uses this image
+import logoTwo from "../../../../static/live.jpg" // Tell webpack this JS file uses this image
+import logoThree from "../../../../static/boots.jpg" // Tell webpack this JS file uses this image
+import logoFour from  "../../../../static/bear.jpg" // Tell webpack this JS file uses this image
 
 
 const Projects = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
@@ -31,9 +39,131 @@ const Projects = ({ offset, factor = 1 }: { offset: number; factor?: number }) =
           
         >
         
+         <a
+    href="#"
+    target="_blank"
+    rel="noreferrer noopener"
+    sx={{
+      width: `100%`,
+      boxShadow: `lg`,
+      position: `relative`,
+      textDecoration: `none`,
+      borderRadius: `lg`,
+      px: 0,
+      py: [0, 0],
+      color: `white`,
+      background: `none`,
+      transition: `all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important`,
+      "&:hover": {
+        color: `white !important`,
+        transform: `translateY(-5px)`,
+        boxShadow: `xl`,
+      },
+    }}
+  >
+        <Carousel.Item className="projectFill">
+<Image src={logo} className="projectFill"  alt="NEVER"  />
+<Carousel.Caption className="cappProject">
+<h1>Freiheit</h1>
+<p>Juan Pablo Domenech</p>
+</Carousel.Caption>
+</Carousel.Item>
+</a>
+
+     <a
+    href="#"
+    target="_blank"
+    rel="noreferrer noopener"
+    sx={{
+      width: `100%`,
+      boxShadow: `lg`,
+      position: `relative`,
+      textDecoration: `none`,
+      borderRadius: `lg`,
+      px: 0,
+      py: [0, 0],
+      color: `white`,
+      background: `none`,
+      transition: `all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important`,
+      "&:hover": {
+        color: `white !important`,
+        transform: `translateY(-5px)`,
+        boxShadow: `xl`,
+      },
+    }}
+  >
+        <Carousel.Item className="projectFill">
+<Image src={logoTwo} className="projectFill"  alt="NEVER"  />
+<Carousel.Caption className="cappProject">
+<h1>Bold efforts</h1>
+<p>Juan Pablo Domenech</p>
+</Carousel.Caption>
+</Carousel.Item>
+</a>
+
+     <a
+    href="#"
+    target="_blank"
+    rel="noreferrer noopener"
+    sx={{
+      width: `100%`,
+      boxShadow: `lg`,
+      position: `relative`,
+      textDecoration: `none`,
+      borderRadius: `lg`,
+      px: 0,
+      py: [0, 0],
+      color: `white`,
+      background: `none`,
+      transition: `all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important`,
+      "&:hover": {
+        color: `white !important`,
+        transform: `translateY(-5px)`,
+        boxShadow: `xl`,
+      },
+    }}
+  >
+        <Carousel.Item className="projectFill">
+<Image src={logoThree} className="projectFill"  alt="NEVER"  />
+<Carousel.Caption className="cappProject">
+<h1>Boots house down</h1>
+<p>Juan Pablo Domenech</p>
+</Carousel.Caption>
+</Carousel.Item>
+</a>
+
+     <a
+    href="#"
+    target="_blank"
+    rel="noreferrer noopener"
+    sx={{
+      width: `100%`,
+      boxShadow: `lg`,
+      position: `relative`,
+      textDecoration: `none`,
+      borderRadius: `lg`,
+      px: 0,
+      py: [0, 0],
+      color: `white`,
+      background: `none`,
+      transition: `all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important`,
+      "&:hover": {
+        color: `white !important`,
+        transform: `translateY(-5px)`,
+        boxShadow: `xl`,
+      },
+    }}
+  >
+        <Carousel.Item className="projectFill">
+<Image src={logoFour} className="projectFill"  alt="NEVER"  />
+<Carousel.Caption className="cappProject">
+<h1>Eagle Salmon Bear</h1>
+<p>Juan Pablo Domenech</p>
+</Carousel.Caption>
+</Carousel.Item>
+</a>
    
         
-          <ProjectsMDX />
         </div>
       </Inner>
     </Content>
