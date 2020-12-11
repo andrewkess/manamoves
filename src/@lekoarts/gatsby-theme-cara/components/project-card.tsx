@@ -7,10 +7,11 @@ import {  Image, Carousel } from 'react-bootstrap'
 import styles2 from '../../../../src/hero-module.css'
 
 
-import logo from  "../../../../static/ramy-keyframe.jpg" // Tell webpack this JS file uses this image
+//import logo from  "../../../../static/ramy-keyframe.jpg" // Tell webpack this JS file uses this image
 import logoTwo from "../../../../static/king-keyframe.jpeg" // Tell webpack this JS file uses this image
 import logoThree from "../../../../static/minari-keyframe.jpeg" // Tell webpack this JS file uses this image
 
+import logo from  "../../../../static/boots.jpg" // Tell webpack this JS file uses this image
 
 
 type ProjectCardProps = {
