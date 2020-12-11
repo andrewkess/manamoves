@@ -68,6 +68,11 @@ const Projects = ({ offset, factor = 1 }: { offset: number; factor?: number }) =
 <p>Juan Pablo Domenech</p>
 </Carousel.Caption>
 </Carousel.Item>
+
+
+   
+
+
 </a>
 
      <a
@@ -126,7 +131,7 @@ const Projects = ({ offset, factor = 1 }: { offset: number; factor?: number }) =
         <Carousel.Item className="projectFill">
 <Image src={logoThree} className="projectFill"  alt="NEVER"  />
 <Carousel.Caption className="cappProject">
-<h1>Boots house down</h1>
+<h1>Boots the house down</h1>
 <p>Juan Pablo Domenech</p>
 </Carousel.Caption>
 </Carousel.Item>
