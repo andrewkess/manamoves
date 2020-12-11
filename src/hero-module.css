@@ -238,10 +238,54 @@ margin-bottom: 0.5rem;
           padding: 0 0.5em;
         }
         
+        
+           .TryIt{
+            font-size:5em;
+          }
+        
+  .projectsTitle{
+      font-family: "Bebas Neue";
+    font-weight: 500;
+    letter-spacing: 0.03cm;
+    line-height: 0.75em;
+    padding-bottom: 0.4em;
+    font-size: 3em;
+    color:white;
+  }
+        
+  .aboutText{
+      font-weight: 500;
+    letter-spacing: 0.03cm;
+    line-height: 1.3em;
+    padding-bottom: 0.4em;
+    font-size: 3em;
+    color:white;
+    
+
+  }
+        
+        @media(max-width: 425px){
+    
+    .aboutText{
+    line-height: 1.3em;
+    font-size: 1.5em;
+  }
+        }
+        
+             @media(max-width: 768px){
+    
+    .aboutText{
+    line-height: 1.3em;
+    font-size: 1.7em;
+  }
+        }
+        
         @media(min-width: 400px) {
           
-          .preview{
-            
+
+          
+          .TryIt{
+            font-size:3em;
           }
           
           .heroDetails {
@@ -336,6 +380,9 @@ margin-bottom: 0.5rem;
         }
         
         @media(min-width: 1000px) {
+          
+
+          
           .heroDetails {
             font-size: 20px;
           }

@@ -8,25 +8,18 @@ import { UpDown, UpDownWide } from "@lekoarts/gatsby-theme-cara/src/styles/anima
 // @ts-ignore
 import ProjectsMDX from "../sections/projects"
 
+import styles2 from '../../../../src/hero-module.css'
+
+
 const Projects = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
   
     <Content speed={0.4} offset={offset + 0.5} factor={factor}>
       <Inner>
       
-           <div style={{
-fontFamily: 'Bebas Neue', 
-  fontWeight: '500',
-  letterSpacing: '0.03cm',
-  lineHeight: '0.75em',
-  paddingBottom: '0.4em',
-display: 'swap',
-fontSize: '3em',
-          
-        }}>
-Projects
-</div>
+      <div className="projectsTitle">Projects</div>
       
+   
       
         <div
           sx={{

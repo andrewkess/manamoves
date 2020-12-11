@@ -6,7 +6,7 @@ import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
 import SVG from "@lekoarts/gatsby-theme-cara/src/components/svg"
 import { UpDown, UpDownWide } from "@lekoarts/gatsby-theme-cara/src/styles/animations"
 // @ts-ignore
-import AboutMDX from "../sections/about"
+//import AboutMDX from "../sections/about"
 
 const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
@@ -20,8 +20,12 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   
     <Content speed={0.4} offset={offset} factor={factor}  >
       <Inner>
-        <AboutMDX  />
-      </Inner>
+      <div className="projectsTitle">About</div>
+
+      <div className="aboutText">Annaga combines creativity with empathy to craft bold, unforgettable stories of personal triumph.</div>
+
+
+         </Inner>
     </Content>
   </div>
 )
