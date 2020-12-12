@@ -366,9 +366,9 @@ display: flex;
 
   padding-left:1em;
     position: absolute;
-    bottom: -25vh;
-  margin-bottom:20px;
 
+bottom: -12vh;
+    margin-bottom: 10px;
 }
 
 .socialIcons2
