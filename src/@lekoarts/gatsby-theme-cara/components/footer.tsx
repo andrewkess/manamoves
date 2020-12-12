@@ -31,7 +31,7 @@ const Footer = () => {
 
 <div className={styles.spreadApart}>
 
-<div   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.instagram.com"><TiSocialInstagram /></a></div>
+<div   className={styles.socialIcons2} style={{paddingRight:`1em`}}><a className={styles.footerOver} href="http://www.instagram.com"><TiSocialInstagram /></a></div>
   <div   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.twitter.com"><VscTwitter /></a></div>
   <div   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.vimeo.com"><FaVimeoV /></a></div>
 

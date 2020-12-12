@@ -24,7 +24,7 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
       <Footer />
     </Content>
     <Divider speed={0.2} offset={offset} factor={factor} bg={'#240001'} fill={'#FF2483'} >
-      <div sx={{ position: `absolute`, bottom: 0, width: `full`, height: `100vh`, transform: `matrix(1, 0, 0, -1, 0, 0)`, backgroundColor: `#240001`, border: `1px solid white`}}>
+      <div sx={{ position: `absolute`, bottom: 0, width: `full`, height: `20px`, transform: `matrix(1, 0, 0, -1, 0, 0)`, backgroundColor: `#240001`, border: `1px solid white`}}>
         <InnerWave sx={{ position: `relative`, height: `full`, backgroundColor: `#240001`, svg: { width: `100%`, height: `30vh`, backgroundColor: `#240001` } }}>
           <svg xmlns="http://www.w3.org/2000/svg" id="contact-wave" viewBox="0 0 800 338.05" preserveAspectRatio="none">
             <path>

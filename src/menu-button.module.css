@@ -191,7 +191,8 @@ display: flex;
   color: #ffffff;
   font-size: 0.7em;
   align-items: center;
-  padding-top:10px;
+  padding-top:20px;
+  padding-bottom:10px;
 
 }
 
@@ -362,12 +363,12 @@ display: flex;
 
 .fullWidth{
   width: 100%;
-  border: 1px white dotted;
-  position:absolute;
-bottom: -40px;
-padding-left:0.5rem;
 
-  
+  padding-left:1em;
+    position: absolute;
+    bottom: -25vh;
+  margin-bottom:20px;
+
 }
 
 .socialIcons2
@@ -376,7 +377,8 @@ padding-left:0.5rem;
 
   justify-content:flex-end;
   flex-direction: row-reverse;
-  padding-right:0.5em;
+padding-right:0.5em;
+  
 }
 
 .socialIcons li
