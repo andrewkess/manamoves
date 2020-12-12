@@ -27,39 +27,28 @@ const Footer = () => {
 <div className={styles.fullWidth}> 
 
 
-  <Container>
-  
-  <Row className="justify-content-md-center">
-    <Col className={styles.bottomFooter2} sm="auto">
+
+
+<div className={styles.spreadApart}>
+
+<div   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.instagram.com"><TiSocialInstagram /></a></div>
+  <div   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.twitter.com"><VscTwitter /></a></div>
+  <div   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.vimeo.com"><FaVimeoV /></a></div>
+
+
+</div>
+
+   <div className={styles.bottomFooter2}>
           &copy; {new Date().getFullYear()} Annagra Productions
-    </Col>      
-      <Col className={styles.bottomFooter2} sm="auto">
+ &nbsp;&nbsp;
       <Link aria-label="Link to Privacy Policy" href="#" className={styles.bottomFooterLink}>
       Privacy Policy 
         </Link> 
-      </Col>  
-        <Col className={styles.bottomFooter2} sm="auto">
+        &nbsp;&nbsp;
          <Link aria-label="Link to Terms of Use" href="#" className={styles.bottomFooterLink}>
         Terms of Use
         </Link>
-    </Col>
-
-    <Col >
-    
-    
-    <Container fluid className={styles.spreadApart}>
-  <Row>
-  <Col   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.instagram.com"><TiSocialInstagram /></a></Col>
-  <Col   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.twitter.com"><VscTwitter /></a></Col>
-  <Col   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.vimeo.com"><FaVimeoV /></a></Col>
-  </Row>
-</Container>
-
-    </Col>
-
-  </Row>
-</Container>
-
+    </div>
 
 
 </div>

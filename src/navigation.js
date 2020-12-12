@@ -14,7 +14,6 @@ import './base.css'
 import logo from  "../static/annaga-logo.png" // Tell webpack this JS file uses this image
 
 
-
 export default () => (
 
 

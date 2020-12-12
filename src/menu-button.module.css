@@ -189,9 +189,9 @@ display: flex;
 
   font-family: "Mukta";
   color: #ffffff;
-  font-size: 0.5em;
+  font-size: 0.7em;
   align-items: center;
-  padding-top:25px;
+  padding-top:10px;
 
 }
 
@@ -200,6 +200,7 @@ display: flex;
   font-family: "Mukta";
   color: #ffffff;
   text-decoration: none;
+  padding-left:5px;
 }
 
 .bottomFooter2 a.bottomFooterLink
@@ -361,8 +362,12 @@ display: flex;
 
 .fullWidth{
   width: 100%;
+  border: 1px white dotted;
+  position:absolute;
+bottom: -40px;
+padding-left:0.5rem;
 
-  padding-top: 45vh;
+  
 }
 
 .socialIcons2
@@ -371,6 +376,7 @@ display: flex;
 
   justify-content:flex-end;
   flex-direction: row-reverse;
+  padding-right:0.5em;
 }
 
 .socialIcons li
@@ -410,7 +416,6 @@ display: flex;
 .socialIcons2 a{
   color: #ffffff;
   display:inline-block;
-  line-height:38px;
   width:38px;
   height:38px;
   text-align:center;
