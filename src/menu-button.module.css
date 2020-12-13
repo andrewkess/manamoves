@@ -13,14 +13,14 @@
 
 
 .navigationBar{
-    background-color:none;
+    background-color:#240001;
     position: fixed;
   top: 0;
   left:0;
 width: 100%;
   z-index: 1999;
-padding-bottom: 3px;
-padding-top: 3px;
+
+height:64px;
 justify-content: space-between;
 transition: top 0.3s; /* Transition effect when sliding down (and up) */
 
@@ -365,9 +365,7 @@ display: flex;
   width: 100%;
 
   padding-left:1em;
-    position: absolute;
 
-bottom: -12vh;
     margin-bottom: 10px;
 }
 

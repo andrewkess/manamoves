@@ -8,16 +8,19 @@ import Contact from "../components/contact"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
+import Navigation from '../../../../src/navigation.js'
 
 
 const Cara = () => (
    <Layout >
  
-    <Parallax pages={4.6}>
+    <Parallax pages={4.1}>
+        <Navigation />
+
       <Hero offset={0} factor={1} />
       <About offset={0.7} factor={0.5} />
-      <Projects offset={1} factor={2.5} />
-      <Contact offset={3.52} factor={0.2} />
+      <Projects offset={1} factor={2} />
+
     </Parallax>
   </Layout>
 )

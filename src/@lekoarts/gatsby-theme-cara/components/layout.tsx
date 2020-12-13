@@ -45,7 +45,6 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
        
 
     <SEO />
-    <Navigation />
 
     <main className={className} style={{backgroundColor:'#240001'}} > 
 

@@ -18,6 +18,7 @@ import logoTwo from "../../../../static/live.jpg" // Tell webpack this JS file u
 import logoThree from "../../../../static/boots.jpg" // Tell webpack this JS file uses this image
 import logoFour from  "../../../../static/bear.jpg" // Tell webpack this JS file uses this image
 
+import Footer from "./footer"
 
 const Projects = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
@@ -170,12 +171,12 @@ const Projects = ({ offset, factor = 1 }: { offset: number; factor?: number }) =
    
         
         </div>
+        
+            <Footer />
+
       </Inner>
     </Content>
-    <Divider speed={0.1} offset={offset} factor={factor}>
-    
-    
-    </Divider>
+
   </div>
 )
 
